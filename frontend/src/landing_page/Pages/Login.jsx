@@ -47,9 +47,11 @@ const Login = () => {
       } else {
         handleError(message);
       }
-    } catch (error) {
-      console.log(error);
-    }
+    }  catch (error) {
+       const errorMsg =
+       error.response?.data?.message || "Something went wrong. Please try again.";
+       handleError(errorMsg);
+      }
     setInputValue({
       ...inputValue,
       email: "",

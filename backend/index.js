@@ -13,6 +13,7 @@ const {PositionsModel} = require('./models/PositionsModel');
 const {OrdersModel} = require('./models/OrdersModel');
 const cookieParser = require("cookie-parser");
 const router = require("./Routes/AuthRoute");
+const verifyToken = require("../Middleware/verifyToken");
 
 
 const allowedOrigins =  ['http://localhost:5173','http://localhost:5174'];
@@ -56,24 +57,22 @@ app.listen(Port, async () =>{
 
 app.use("/", router);
 
-app.get('/holdings',async (req,res)=>{
+app.get('/holdings', verifyToken, async (req,res)=>{
     let allHolding = await HoldingsModel.find({}) 
     res.json(allHolding);
     console.log(allHolding)
 });
 
-app.get('/position',async (req,res)=>{
+app.get('/position', verifyToken, async (req,res)=>{
     let allPosition = await PositionsModel.find({})
     res.json(allPosition)
     console.log(allPosition)
 
 });
 
-app.get('/order',async (req,res)=>{
-    let allOrders = await OrdersModel.find({})
-    res.json(allOrders)
-    console.log(allOrders)
-
+app.get('/order', verifyToken, async (req, res) => {
+  const allOrders = await OrdersModel.find({});
+  res.json(allOrders);
 });
 
 app.post('/newOrder',async (req,res)=>{

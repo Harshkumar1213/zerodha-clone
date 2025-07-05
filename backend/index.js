@@ -13,7 +13,7 @@ const {PositionsModel} = require('./models/PositionsModel');
 const {OrdersModel} = require('./models/OrdersModel');
 const cookieParser = require("cookie-parser");
 const router = require("./Routes/AuthRoute");
-const verifyToken = require("../Middleware/verifyToken");
+const verifyToken = require("./Middleware/verifyToken");
 
 
 const allowedOrigins =  ['http://localhost:5173','http://localhost:5174'];

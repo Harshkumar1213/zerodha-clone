@@ -18,7 +18,6 @@ const Signup = () => {
       [name]: value,
     });
   };
-
   const handleError = (err) =>
     toast.error(err, {
       position: "bottom-left",

@@ -7,10 +7,13 @@ const Orders = () => {
   const [allOrder, setAllOrder] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/order").then((res) => { 
+    axios.get("http://localhost:3001/order", {
+          withCredentials: true, 
+        }).then((res) => { 
       setAllOrder(res.data);
     });
   }, []);
+   console.log(setAllOrder)
 
   return (
     <div className="orders">

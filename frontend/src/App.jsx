@@ -10,9 +10,7 @@ import Support from "./landing_page/support/Support";
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
 import NotFound from './landing_page/NotFound';
-import Homes from '../src/landing_page/Pages/homes'
-
-      
+import Homes from '../src/landing_page/Pages/homes';
 
 
 function App() {

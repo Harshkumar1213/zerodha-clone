@@ -1,0 +1,93 @@
+/* footer */
+*{
+    font-family: 14px inter,serif;
+}
+
+.footer{
+    background-color: #fbfbfb;
+    padding: 30px 0 0 0;
+    border-top: 1px solid #eee;
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.between {
+    font-size: .875rem;
+    justify-content: space-between;
+}
+
+.columns{
+    margin-left: 0;
+}
+
+.social{
+    margin-right: 5rem;
+}
+
+.f-para{
+    color: #666666 !important;
+}
+
+.social li{
+    display: inline;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    color: #666666 !important;
+}
+
+.social li a:hover{
+    color: #387ed1 !important;
+}
+
+ul li a{
+    color: #666666 !important;
+}
+
+ul .f-li{
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #191919 !important;
+}
+
+ul .f-li:hover{
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #191919;
+}
+
+ul li{
+    font-weight: 500;
+    line-height: 2.5rem;
+    list-style-type: none;
+    color: #666666 !important;
+}
+
+ul li:hover{
+    color: #387ed1;
+}
+
+.foot-para p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #9B9B9B !important;
+}
+
+.l-foot ul{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+.l-foot ul li{
+    color: #9B9B9B !important;
+}
+
+.l-foot ul li:hover{    
+    color: #387ed1 !important;
+}

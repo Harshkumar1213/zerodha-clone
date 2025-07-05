@@ -1,0 +1,51 @@
+.supportForm form input {
+    width: 87%;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.supportForm form button{
+    padding: 1rem 1.5rem;
+    border: none;
+    color: grey;
+    font-size: 1.21rem;
+    background-color: #fff;
+}
+
+.supportForm {
+    border: 1px solid #fff;
+}
+
+.supportForm form input:focus{
+    border: none;
+    outline: none;
+}
+
+.container-fluid{
+    background-color: #387ed1;
+}
+
+.white{
+    color: #fff !important;
+}
+
+.supportLinks p  {
+    display: inline;
+}
+
+.supportLinks p a {
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.ticket-head{
+    margin-left: 1.6rem;
+}
+
+.ticket-ul li{
+    line-height: 1.9rem;
+    margin-right: 1.5rem;
+    font-size: 0.99rem;
+    color: #666666 !important;
+}

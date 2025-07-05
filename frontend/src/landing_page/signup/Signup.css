@@ -1,0 +1,66 @@
+*{
+    font-family: 14px inter,serif !important;
+}
+
+h2{
+    color: #464646;
+}
+
+p{
+    color: #666666;
+}
+
+.main{
+    margin-top: 5rem;
+}
+
+.main h2{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.main p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.right-col{
+    padding-left: 48px;
+}
+
+.right-col form input{
+    font-size: 1.1rem;
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+
+.right-col form input:focus{
+    border: 1px solid #666666;
+    outline: none;
+    box-shadow: none;
+}
+
+.right-col form button{
+    padding: 0.7rem 3.5rem;
+}
+
+/* main2 */
+
+.main2{
+    margin-top: 5.5rem;
+}
+
+.main2 h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.options{
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

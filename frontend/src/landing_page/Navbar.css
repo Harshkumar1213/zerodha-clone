@@ -1,0 +1,17 @@
+
+nav{
+  background-color: #fff;
+}
+
+.nav-ul li a{
+  color: #666666 !important;
+}
+
+.nav-ul li a:hover{
+  color: #387ed1 !important;
+}
+
+.nav-ul li a{
+  font-size: 14px;
+  color: #666666;
+}
